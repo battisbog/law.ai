@@ -1,0 +1,78 @@
+/* Sidebar.css */
+.sidebar {
+  width: 90px;
+  height: 100vh;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  transition: width 0.3s ease, left 0.3s ease; /* Add transition for smooth effect */
+}
+
+.sidebar.open {
+  width: 220px;
+}
+
+.toggle-btn {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  flex-grow: 1;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content */
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: margin-left 0.3s ease; /* Add transition for smooth effect */
+}
+
+.sidebar-link svg {
+  margin-right: 8px; /* Adjust the margin as needed */
+}
+
+.sidebar-link:hover {
+  background-color: #444; /* Add background color on hover */
+}
+
+.sidebar-link:hover span {
+  color: #fff; /* Set the text color to white on hover */
+}
+
+.sidebar-link.contracted {
+  margin-left: 0; /* Center the contracted sidebar */
+}
+
+li {
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: inherit;
+}

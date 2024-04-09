@@ -1,0 +1,76 @@
+/* ChatRoom.css */
+
+/* Style for the chat container */
+.chatContainer {
+    overflow-y: scroll;
+    padding: 20px; /* Add padding to the chat container */
+    max-height: 70vh; /* Set a maximum height for the chat container */
+  }
+  
+  /* Style for individual chat messages */
+  .chatMessage {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the message input form */
+  .messageForm {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 728px;
+    background-color: #282c34; /* Dark gray background */
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+    
+  /* Style for the message input field */
+  .messageInput {
+    flex: 1;
+    font-size: 1rem;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    background-color: #2c3e50; /* Darker background for input field */
+    color: #ffffff; /* White text color */
+  }
+    
+  /* Style for the send button */
+  .sendButton {
+    background-color: #3498db; /* Accent color (blue) */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .clearButton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+      
+    
+  /* Style for the scrollbar in the chat container */
+  .chatContainer::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .chatContainer::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  .chatContainer::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+  

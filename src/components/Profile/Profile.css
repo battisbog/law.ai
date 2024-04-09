@@ -1,0 +1,38 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+  }  
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profileContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePhoto {
+    margin-right: 20px;
+  }
+  
+  .profilePhoto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .profileInfo {
+    color: #ffffff; /* White text color */
+}
+  
+  .profileInfo h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profileInfo p {
+    margin: 5px 0;
+  }
+  
